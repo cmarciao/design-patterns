@@ -2,9 +2,13 @@
 
 ## Intenção Oficial
 
-Definir uma família de algoritmos, encapsular cada um deles e fazê-los intercambiáveis. O strategy permite que o algoritmo varie independentemente dos clientes que o utilizam.
+Definir uma família de algoritmos, encapsular cada um deles e fazê-los
+intercambiáveis. O strategy permite que o algoritmo varie independentemente
+dos clientes que o utilizam.
 
-Visa separar a regra de negócio dos algoritmos dessa regra de negócio, assim podemos criar uma família de algoritmos caso precisamos de variações deste algoritmo.
+Visa separar a regra de negócio dos algoritmos dessa regra de negócio, assim
+podemos criar uma família de algoritmos caso precisamos de variações deste
+algoritmo.
 
 ## Sobre o Strategy
 
@@ -17,9 +21,12 @@ Visa separar a regra de negócio dos algoritmos dessa regra de negócio, assim p
 
 Podemos usar o strategy quando:
 
-1. Tivermos variantes de um mesmo algoritmo e precisamos trocar esses algoritmos em tempo de execução.
-2. Precisarmos isolar a regra de negócio do algoritmo que deve ser aplicado (S do SOLID).
-3. Percebermos que estamos usando condicionais apenas para trocar o resultado final de um algoritmo.
+1. Tivermos variantes de um mesmo algoritmo e precisamos trocar esses algoritmos
+ em tempo de execução.
+2. Precisarmos isolar a regra de negócio do algoritmo que deve ser aplicado
+(S do SOLID).
+3. Percebermos que estamos usando condicionais apenas para trocar o resultado
+final de um algoritmo.
 
 ## Consequências
 
