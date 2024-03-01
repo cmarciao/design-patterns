@@ -1,21 +1,27 @@
 # Singleton
 
-## Intenção Inicial
+## Intenção Oficial
 
-Garantir que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma.
+Garantir que uma classe tenha somente uma instância no programa e fornecer um
+ponto de acesso global para a mesma.
 
 ## Somente uma instância?
 
-Geralmente usado para acesso de recursos compartilhados, como acesso à base de dados, sistema de logs, variáveis globais.
+Geralmente usado para acesso de recursos compartilhados, como acesso à base de
+dados, sistema de logs, variáveis globais.
 
 ## Ponto de acesso global?
 
-Você pode permitir acesso global de um recurso em toda a sua aplicação, podendo proteger a instância com encapsulamento, evitando que ela seja sobrescrevida.
+Você pode permitir acesso global de um recurso em toda a sua aplicação, podendo
+proteger a instância com encapsulamento, evitando que ela seja sobrescrevida.
 
 ## Aplicabilidade
 
-1. Use o Singleton se a classe precisa ter apenas uma única instância em todo o programa.
-2. Use o Singleton se perceber que variávaies globais estão sendo usadas para manter partes importantes do programa, como variáveis de configuração que podem ser usadas em toda a aplicação.
+1. Use o Singleton se a classe precisa ter apenas uma única instância em todo o
+programa.
+2. Use o Singleton se perceber que variávaies globais estão sendo usadas para
+manter partes importantes do programa, como variáveis de configuração que podem
+ser usadas em toda a aplicação.
 
 ## Consequências
 
